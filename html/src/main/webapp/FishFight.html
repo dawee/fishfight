@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FishFight</title>
+    <link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="fishfight.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="fishfight.js"></script>
+  </head>
+  <body bgcolor="black">
+    <div id="dialog">
+        <h1>Fish fight</h1>
+        <h2>Controls</h2>
+        <div id="controls">
+            <div class="player">
+                <span class="title">Fish 1 (left)</span>
+                <ul>
+                    <li>up   : W</li>
+                    <li>fire : D</li>
+                    <li>down : S (only for combos)</li>
+                    <li>back : A (only for combos)</li>
+                </ul>
+            </div>
+            <div class="player">
+                <span class="title">Fish 2 (right)</span>
+                <ul>
+                    <li>up   : UP ARROW</li>
+                    <li>fire : LEFT ARROW</li>
+                    <li>down : DOWN ARROW(only for combos)</li>
+                    <li>back : RIGHT ARROW (only for combos)</li>
+                </ul>
+            </div>
+        </div>
+        <h2>Combos</h2>
+        <p>Fire the big bubble : <span class="key">back</span> <span class="key">down</span> <span class="key">back</span> <span class="key">back</span> <span class="key">down</span> <span class="key">fire</span></p>
+        <p>Fire the huge bubble :  <span class="key">back</span> <span class="key">down</span> <span class="key">back</span> <span class="key">down</span> <span class="key">back</span> <span class="key">back</span> <span class="key">down</span> <span class="key">down</span> <span class="key">fire</span></p>
+
+        <div id="play">Play</div>
+    </div>
+    <script src="fishfight/fishfight.nocache.js"></script>
+  </body>
+</html>
